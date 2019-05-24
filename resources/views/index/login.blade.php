@@ -89,12 +89,12 @@
   </body>
 </html>
 @if(session('fail'))
-        <script type="text/javascript">
-          layui.use('layer',function(){
+    <script type="text/javascript">
+        layui.use('layer',function(){
             var layer=layui.layer;
             layer.msg("{{session('fail')}}",{icon:2});
-          })
-        </script>
+        })
+    </script>
 @endif
 <script type="text/javascript">
   $(function(){
